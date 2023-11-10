@@ -21,4 +21,4 @@ parameters {
 		sh 'cp target/grras2.war /home/abhilash/Documents/DevOps/tar/apache-tomcat-9.0.82/webapps'
 			}}	
 }}
-slackSend baseUrl: 'https://hooks.slack.com/services/', channel: 'grras-test', color: 'good', message: 'welcome to slack grras channel', teamDomain: 'devops', tokenCredentialId: 'dedf9f6c-d136-40d9-bf15-c67a2bf3b45c'
+slackSend enCredentialId: 'dedf9f6c-d136-40d9-bf15-c67a2bf3b45c'
